@@ -1,0 +1,139 @@
+.about{
+
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(20, 13, 61, 1);
+}
+
+.about .leftside .card {
+    background: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap: 20px; 
+    position: relative;
+    padding: 10px;
+    border: 2.21px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid white;
+    border-radius:20px 20px 0px 0px;
+    
+}
+
+
+.about .leftside .card .cardimg{
+    width: 174px;
+    height: 178px;
+    border-radius: 50%;
+    position: absolute;
+    top: -115px;
+   
+
+    
+}
+
+
+.about .leftside .card .cardtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+.about .leftside .card .cardinfo{
+    border: 1px solid rgb(193, 190, 190);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.about .leftside .card .cardinfo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.about .leftside .card .cardinfo ul li{
+    color: #FFF;
+    font-size: 16px;
+}
+
+
+.countinfo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.countinfo .countdiv{
+    border-right: 1px solid white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.countinfo .countdiv h4{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.countinfo .countdiv p{
+    font-size: 14px;
+    color: #FFF;
+}
+
+
+#lastdiv{
+    border: none;
+}
+
+
+.about .card button{
+    background: rgb(12, 160, 205);
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width:160px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.about .rightside .heading{
+    font-size: 36px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+
+.about .rightside .desc{
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
